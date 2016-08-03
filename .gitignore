@@ -19,3 +19,6 @@ cabal.sandbox.config
 *.eventlog
 .stack-work/
 cabal.project.local
+
+# vim
+.*.swp
