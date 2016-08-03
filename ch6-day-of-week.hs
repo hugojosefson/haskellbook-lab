@@ -1,5 +1,5 @@
 data DayOfWeek =
-  Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday deriving Show
+  Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday deriving (Show, Ord)
 
 instance Eq DayOfWeek where
   (==) Monday    Monday    = True
