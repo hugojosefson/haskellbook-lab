@@ -12,20 +12,6 @@ instance Eq DayOfWeek where
   (==) _         _         = False
 
 instance Enum DayOfWeek where
-  succ Monday    = Tuesday
-  succ Tuesday   = Wednesday
-  succ Wednesday = Thursday
-  succ Thursday  = Friday
-  succ Friday    = Saturday
-  succ Saturday  = Sunday
-  succ Sunday    = Monday
-  pred Monday    = Sunday
-  pred Tuesday   = Monday
-  pred Wednesday = Tuesday
-  pred Thursday  = Wednesday
-  pred Friday    = Thursday
-  pred Saturday  = Friday
-  pred Sunday    = Saturday
   toEnum 0 = Monday
   toEnum 1 = Tuesday
   toEnum 2 = Wednesday
