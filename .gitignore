@@ -22,3 +22,6 @@ cabal.project.local
 
 # vim
 .*.swp
+
+# jetbrains
+/.idea/
